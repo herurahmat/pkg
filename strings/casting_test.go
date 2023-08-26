@@ -1,6 +1,8 @@
 package strings
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestStringToBool(t *testing.T) {
 	if !StringToBool("true", true) {
